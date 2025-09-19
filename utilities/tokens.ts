@@ -6,6 +6,10 @@ const PIECE = {
       { x: -1, y: 1 },
       { x: -1, y: -1 },
     ],
+    PATH: {
+      BLACK: '../img/black-bishop.svg',
+      WHITE: '../img/white-bishop.svg',
+    },
   },
   KING: {
     DIRECTIONS: [
@@ -18,6 +22,10 @@ const PIECE = {
       { x: -1, y: 1 },
       { x: -1, y: -1 },
     ],
+    PATH: {
+      BLACK: '../img/black-king.svg',
+      WHITE: '../img/white-king.svg',
+    },
   },
   KNIGHT: {
     DIRECTIONS: [
@@ -30,6 +38,10 @@ const PIECE = {
       { x: -2, y: 1 },
       { x: -2, y: -1 },
     ],
+    PATH: {
+      BLACK: '../img/black-knight.svg',
+      WHITE: '../img/white-knight.svg',
+    },
   },
   PAWN: {
     DIRECTIONS: [
@@ -42,7 +54,11 @@ const PIECE = {
       { x: 1, y: 0 },
       { x: 1, y: 1 },
       { x: 1, y: -1 },
-    ]
+    ],
+    PATH: {
+      BLACK: '../img/black-pawn.svg',
+      WHITE: '../img/white-pawn.svg',
+    },
   },
   QUEEN: {
     DIRECTIONS: [
@@ -55,6 +71,10 @@ const PIECE = {
       { x: -1, y: 1 },
       { x: -1, y: -1 },
     ],
+    PATH: {
+      BLACK: '../img/black-queen.svg',
+      WHITE: '../img/white-queen.svg',
+    },
   },
   ROOK: {
     DIRECTIONS: [
@@ -63,6 +83,10 @@ const PIECE = {
       { x: 0, y: 1 },
       { x: 0, y: -1 },
     ],
+    PATH: {
+      BLACK: '../img/black-rook.svg',
+      WHITE: '../img/white-rook.svg',
+    },
   },
 };
 

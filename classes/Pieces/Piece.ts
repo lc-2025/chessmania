@@ -1,4 +1,4 @@
-import { Color, FENCharacter, TDirections } from '../types/Piece';
+import { Color, FENCharacter, TDirections } from '../../types/Piece';
 
 /**
  * @description Piece class

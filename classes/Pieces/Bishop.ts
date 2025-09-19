@@ -1,6 +1,6 @@
 import Piece from './Piece';
-import { PIECE } from '../utilities/tokens';
-import { Color, FENCharacter, TDirections } from '../types/Piece';
+import { PIECE } from '../../utilities/tokens';
+import { Color, FENCharacter, TDirections } from '../../types/Piece';
 
 /**
  * @description Bishop class

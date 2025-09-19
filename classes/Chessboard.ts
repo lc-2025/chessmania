@@ -1,12 +1,12 @@
-import Bishop from './Pieces/Bishop';
-import King from './Pieces/King';
-import Knight from './Pieces/Knight';
-import Queen from './Pieces/Queen';
-import Pawn from './Pieces/Pawn';
-import Piece from './Pieces/Piece';
-import Rook from './Pieces/Rook';
-import { Color, FENCharacter } from './types/Piece';
-import { TChessboard } from './types/Chessboard';
+import Bishop from '../Pieces/Bishop';
+import King from '../Pieces/King';
+import Knight from '../Pieces/Knight';
+import Queen from '../Pieces/Queen';
+import Pawn from '../Pieces/Pawn';
+import Piece from '../Pieces/Piece';
+import Rook from '../Pieces/Rook';
+import { Color, FENCharacter } from '../types/Piece';
+import { TChessboard } from '../types/Chessboard';
 
 /**
  * @description Chessboard class
