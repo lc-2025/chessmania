@@ -25,4 +25,4 @@ type TCoordinates = {
 
 type TDirections = Array<TCoordinates>;
 
-export { Color, FENCharacter, TDirections };
+export { Color, FENCharacter, TCoordinates, TDirections };

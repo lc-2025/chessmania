@@ -11,7 +11,7 @@ import { Color, FENCharacter, TDirections } from '../../types/Piece';
  */
 class King extends Piece {
   // Useful to detect castling
-  private _moved: boolean = false;
+  private _moved = false;
   protected override _FENCharacter: FENCharacter;
   protected override _directions: TDirections = PIECE.KING.DIRECTIONS;
 

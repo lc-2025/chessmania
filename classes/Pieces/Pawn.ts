@@ -13,7 +13,7 @@ const { PAWN } = PIECE;
  */
 class Pawn extends Piece {
   // Manages the piece advancement restriction
-  private _moved: boolean = false;
+  private _moved = false;
   protected override _FENCharacter: FENCharacter;
   protected override _directions: TDirections = PAWN.DIRECTIONS;
 
